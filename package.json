@@ -5,12 +5,17 @@
   "license": "MIT",
   "scripts": {
     "storybook-generate": "sb-rn-get-stories --config-path .storybook",
-    "storybook": "expo start",
+    "start": "expo start",
     "storybook:ios": "expo run:ios",
     "storybook:android": "expo run:android",
     "prebuild": "expo prebuild --clean",
     "android": "expo run:android",
-    "ios": "expo run:ios"
+    "ios": "expo run:ios",
+    "build:android": "eas build --platform android --local --profile=testing",
+    "build:ios": "eas build --platform ios --local --profile=testing",
+    "sherlo:run": "sherlo",
+    "eas-build-on-complete": "sherlo eas-build-on-complete --profile testing",
+    "build:remote": "eas build --platform all --profile testing"
   },
   "dependencies": {
     "@gorhom/bottom-sheet": "^4.6.4",
