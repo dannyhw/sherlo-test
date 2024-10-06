@@ -1,0 +1,13 @@
+diff --git a/node_modules/@sherlo/react-native-storybook/.bun-tag-47ee6ea3d5dbb461 b/.bun-tag-47ee6ea3d5dbb461
+new file mode 100644
+index 0000000000000000000000000000000000000000..e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+diff --git a/dist/getStorybook/hooks/useStoryEmitter.js b/dist/getStorybook/hooks/useStoryEmitter.js
+index a966ffa182a1904c8e3d8132369c7f6b3c2c3f4d..35c4f43c2ef50e954c03ab55517c49d3aaff686b 100644
+--- a/dist/getStorybook/hooks/useStoryEmitter.js
++++ b/dist/getStorybook/hooks/useStoryEmitter.js
+@@ -1,4 +1,4 @@
+-import { SET_CURRENT_STORY } from '@storybook/core-events';
++import { SET_CURRENT_STORY } from "@storybook/core/core-events";
+ import { addons } from '@storybook/manager-api';
+ import { useEffect } from 'react';
+ function useStoryEmitter(updateRenderedStoryId) {

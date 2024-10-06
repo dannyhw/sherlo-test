@@ -67,5 +67,8 @@
       "react-docgen-typescript": "2.2.2"
     }
   },
-  "private": true
+  "private": true,
+  "patchedDependencies": {
+    "@sherlo/react-native-storybook@1.0.36-alpha": "patches/@sherlo%2Freact-native-storybook@1.0.36-alpha.patch"
+  }
 }
