@@ -17,14 +17,14 @@
   ],
   "ios": {
     "supportsTablet": true,
-    "bundleIdentifier": "com.dannyhw.sherlo-test"
+    "bundleIdentifier": "com.dannyhw.sherlotest"
   },
   "android": {
     "adaptiveIcon": {
       "foregroundImage": "./assets/adaptive-icon.png",
       "backgroundColor": "#FFFFFF"
     },
-    "package": "com.dannyhw.sherlo-test"
+    "package": "com.dannyhw.sherlotest"
   },
   "web": {
     "favicon": "./assets/favicon.png"
@@ -37,6 +37,11 @@
   "expo": {
     "android": {
       "package": "com.dannyhw.sherlotest"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9b8e390e-053c-4b77-a243-031569621198"
+      }
     }
   }
 }
