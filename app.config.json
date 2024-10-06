@@ -1,6 +1,6 @@
 {
   "name": "HelloWorld",
-  "slug": "expo-template-blank-typescript",
+  "slug": "sherlo-test",
   "version": "1.0.0",
   "orientation": "portrait",
   "icon": "./assets/icon.png",
@@ -17,21 +17,21 @@
   ],
   "ios": {
     "supportsTablet": true,
-    "bundleIdentifier": "com.dannyhw.expotemplateblanktypescript"
+    "bundleIdentifier": "com.dannyhw.sherlo-test"
   },
   "android": {
     "adaptiveIcon": {
       "foregroundImage": "./assets/adaptive-icon.png",
       "backgroundColor": "#FFFFFF"
     },
-    "package": "com.dannyhw.expotemplateblanktypescript"
+    "package": "com.dannyhw.sherlo-test"
   },
   "web": {
     "favicon": "./assets/favicon.png"
   },
   "extra": {
     "eas": {
-      "projectId": "a7df6183-5d0b-4a83-8279-40f3eb3796a5"
+      "projectId": "9b8e390e-053c-4b77-a243-031569621198"
     }
   }
 }
