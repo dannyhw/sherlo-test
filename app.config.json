@@ -42,6 +42,9 @@
       "eas": {
         "projectId": "9b8e390e-053c-4b77-a243-031569621198"
       }
+    },
+    "ios": {
+      "bundleIdentifier": "com.dannyhw.sherlotest"
     }
   }
 }

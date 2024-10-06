@@ -5,16 +5,20 @@
   },
   "build": {
     "development": {
+      "bun": "1.1.29",
       "developmentClient": true,
       "distribution": "internal"
     },
     "preview": {
+      "bun": "1.1.29",
       "distribution": "internal"
     },
     "production": {
+      "bun": "1.1.29",
       "autoIncrement": true
     },
     "testing": {
+      "bun": "1.1.29",
       "distribution": "internal",
       "android": { "buildType": "apk" },
       "ios": {
